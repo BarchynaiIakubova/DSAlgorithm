@@ -6,10 +6,13 @@ public class Main {
 
         int[] unsArray = {5, -6, 98, 55, 0, 89};
 
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.insertionSort(unsArray);
 //        BubbleSort bubbleSort = new BubbleSort();
 //        bubbleSort.bubbleSort(unsArray);
-        SelectionSort selectionSort = new SelectionSort();
-        selectionSort.selectionSort(unsArray);
+//        SelectionSort selectionSort = new SelectionSort();
+//        selectionSort.selectionSort(unsArray);
+
 
     }
 
